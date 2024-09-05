@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "addr2",
+						"type": "address"
+					}
+				],
+				"name": "splitEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/requireAssertRevert.sol": "Callee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/requireAssertRevert.sol": {
+			"keccak256": "0x09d353d67dbf14160af3c6f3a5a328d1ee0d73d2e8ea6d4571b0981d777d8e52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48c70e8546a715bfce15a951fe198fd4ffea0be6b6ebf197cc87a8c88a70c248",
+				"dweb:/ipfs/QmQrgFnbEyAAGG8fgNUeYZEPp6ifxfBKJpNkwvLR5VxmCG"
+			]
+		}
+	},
+	"version": 1
+}
