@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -324,8 +324,14 @@
 			"version": 1
 		},
 		"userdoc": {
+			"events": {
+				"Deposit(address,uint256)": {
+					"notice": "以太坊的事件（Event）机制是一种在智能合约中定义和触发事件的方式，用于实现合约与外部世界的通信和提供交易的可追溯性。 事件机制可以让智能合约在特定条件满足时触发事件，并将相关信息记录在以太坊区块链上的日志中。"
+				}
+			},
 			"kind": "user",
 			"methods": {},
+			"notice": "多签钱包DEMO",
 			"version": 1
 		}
 	},
@@ -346,11 +352,11 @@
 	},
 	"sources": {
 		"contract/MultiSigWallet.sol": {
-			"keccak256": "0x70ae1d17a0d137d277d0d9bb7cdb6c4129ae39fef583db02659d8856a77a00b3",
+			"keccak256": "0x90161310a2da04c8f69dee6bf7d7ddc9becf9866d3b6a46aec2ea6c8118c9226",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cb4a73621442034658576688f5585d6181d4478fa79a7f63719ea0d041beba95",
-				"dweb:/ipfs/QmP7YjZf6n7xRw414gMh5sagRkAJQ7iiAZChfwiD52KEYv"
+				"bzz-raw://5bff4e82b2c7c34224d0049b4ea2ba21b7127a76014ddb33084eb5a07ea0daa3",
+				"dweb:/ipfs/QmfM8KSbv4jRoF8WYd9fKqMd5Hhf78Es7nH4vS5cYT71EV"
 			]
 		}
 	},
