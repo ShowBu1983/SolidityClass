@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_etherStoreAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "collectEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherStore",
+				"outputs": [
+					{
+						"internalType": "contract EtherStore",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwnEtherStore",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "recieve",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/Attack.sol": "Attack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/Attack.sol": {
+			"keccak256": "0x9852a856d390721465a87834f561dc775395ee5fbe606fdf95a5ae432805967c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40d0a40e3855f424c284329fc8897becd7a3106980a3288760f831f3fabbd978",
+				"dweb:/ipfs/QmeZmLTxpfyUdJ4dafGaNbEz5j7k258enb1BdHdtGEQNME"
+			]
+		},
+		"contract/EtherStore.sol": {
+			"keccak256": "0xc0b2f2957088a5a33d18e9e052fabe3101690f95083a833f6f6ae571b55272a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e33103642fea1864a2c177d2e0c2d9f46c5e0d0688831d9f0e79d47e13c64cda",
+				"dweb:/ipfs/QmNqgkovAJqADic3mMd56WNRGesG2WebXJUaYYyhyw5Jgx"
+			]
+		}
+	},
+	"version": 1
+}
