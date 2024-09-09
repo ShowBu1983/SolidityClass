@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractBAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractB",
+				"outputs": [
+					{
+						"internalType": "contract ContractB",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValueFromContractB",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueInContractB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/ContractA.sol": "ContractA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/ContractA.sol": {
+			"keccak256": "0xec109a72b278ee729048d67370a56a4021edca06e39fd3b386afed4eb5ea4411",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4efb229cb6fa75023d39d20b49f0194fa56b195dbcdfb97bd8c765d45ccd92fe",
+				"dweb:/ipfs/QmP5KfV4bms5VFN7AAnXuWux69GsC2DGDmvCZvFWrBtEhB"
+			]
+		},
+		"contract/ContractB.sol": {
+			"keccak256": "0x7717e9d9a6bc61a79e874ec7a734a49d6f0d63b9f61b1a534f621aa1126f673c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://507f0e0a708360b473b965e283191bb158bfa95010f9acf27a9c0cce7be054f4",
+				"dweb:/ipfs/QmNq1WrKZRBgLYouMNMM7jzYQWqAFoYwUyYVus4XaTFqRW"
+			]
+		}
+	},
+	"version": 1
+}
